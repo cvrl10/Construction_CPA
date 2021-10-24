@@ -50,6 +50,8 @@ public class Main
 		System.out.println(res);
 		System.out.println(home);
 		
+		System.out.println();
+		
 		
 	}
 }

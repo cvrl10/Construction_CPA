@@ -50,7 +50,7 @@ protected String subgroup;//the IBC requires all buildings and structures be cla
 	 * will simply print to the console: Drawing code for <<Object Type>>. All of the draw methods in the subclasses
 	 * will do the same.
 	 */
-	public final void draw()//prints the Class type of the object.
+	public void draw()//prints the Class type of the object.
 	{
 		System.out.println("Drawing code for <<"+getClass().getSimpleName()+">>.");
 	}//end draw

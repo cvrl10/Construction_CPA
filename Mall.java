@@ -46,6 +46,17 @@ private int numParkingSpaces;//the total number of parking spaces around the mal
 	
 	/**
 	 * 
+	 * eventually this method will be used to draw the object on the screen, but for the prototype, it will
+	 * will simply print to the console: Drawing code for <<Object Type>>. All of the draw methods in the subclasses
+	 * will do the same.
+	 */
+	public void draw()//prints the Class type of the object.
+	{
+		System.out.println("Drawing code for <<"+getClass().getSimpleName()+">>.");
+	}//end draw
+	
+	/**
+	 * 
 	 * @return a formatted String that contains all of the info about the object, including inherited instance variables.
 	 */
 	public String displayData()
