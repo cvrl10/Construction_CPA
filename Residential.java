@@ -49,7 +49,8 @@ protected boolean laundryRoom;//whether or not the building has a laundry room.
 	 * 
 	 * eventually this method will be used to draw the object on the screen, but for the prototype, it will
 	 * will simply print to the console: Drawing code for <<Object Type>>. All of the draw methods in the subclasses
-	 * will do the same.
+	 * will do the same. This could have been written in the superclass but the UML Class Diagram 
+	 * asked for an explicit definition in each subclass.
 	 */
 	public void draw()//prints the Class type of the object.
 	{
@@ -127,4 +128,4 @@ protected boolean laundryRoom;//whether or not the building has a laundry room.
 		return "Residential [numBedrooms=" + numBedrooms + ", numBathrooms=" + numBathrooms + ", laundryRoom="
 				+ laundryRoom + "]";
 	}//end toString	
-}
+}//end class

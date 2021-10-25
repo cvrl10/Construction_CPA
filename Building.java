@@ -162,4 +162,4 @@ protected String subgroup;//the IBC requires all buildings and structures be cla
 		return "Building [projectName=" + projectName + ", completeAddress=" + completeAddress + ", totalSquareFeet="
 				+ totalSquareFeet + ", occupancyGroup=" + occupancyGroup + ", subgroup=" + subgroup + "]";
 	}//end toString
-}
+}//end class
